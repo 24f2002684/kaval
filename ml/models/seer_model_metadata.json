@@ -1,0 +1,39 @@
+{
+  "model_name": "SEER Gradient Boosted Susceptibility Classifier",
+  "version": "1.2.0",
+  "algorithm": "GradientBoostingClassifier (scikit-learn)",
+  "features": [
+    "elevation_m",
+    "slope_deg",
+    "distance_to_drain_m",
+    "soil_saturation",
+    "rainfall_accum_24h_mm",
+    "flow_accumulation"
+  ],
+  "dataset_size": 4000,
+  "test_size": 1000,
+  "accuracy": 0.939,
+  "roc_auc": 0.9826,
+  "f1_score": 0.831,
+  "precision": 0.8242,
+  "recall": 0.838,
+  "confusion_matrix": [
+    [
+      789,
+      32
+    ],
+    [
+      29,
+      150
+    ]
+  ],
+  "feature_importance": {
+    "elevation_m": 0.1943,
+    "slope_deg": 0.0332,
+    "distance_to_drain_m": 0.1087,
+    "soil_saturation": 0.0722,
+    "rainfall_accum_24h_mm": 0.5767,
+    "flow_accumulation": 0.0148
+  },
+  "limitations": "Trained on regional hydrological proxy features calibrated for Chennai coastal flood plain conditions. Accuracy is dependent on high-resolution DEM availability and local drainage network accuracy."
+}

@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgis/postgis:15-3.3
+    container_name: kaval_db
+    restart: always
+    environment:
+      POSTGRES_USER: kaval_user
+      POSTGRES_PASSWORD: kaval_secure_password_2026
+      POSTGRES_DB: kaval
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kaval_user -d kaval"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: kaval_backend
+    restart: always
+    environment:
+      - ENV=production
+      - DATABASE_URL=postgresql://kaval_user:kaval_secure_password_2026@db:5432/kaval
+      - SECRET_KEY=kaval_super_secret_jwt_key_ciphercop_2026_goat_resilience
+      - CORS_ORIGINS=["http://localhost:5173","http://localhost:3000","http://127.0.0.1:5173","*"]
+      - LLM_PROVIDER=mock
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app/backend
+      - ./ml:/app/ml
+      - ./datasets:/app/datasets
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.frontend
+    container_name: kaval_frontend
+    restart: always
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

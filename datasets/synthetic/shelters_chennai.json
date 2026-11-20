@@ -1,0 +1,161 @@
+[
+  {
+    "shelter_id": "SH-CHE-01",
+    "name": "Guru Nanak College Relief & Evacuation Center",
+    "city": "Chennai",
+    "neighbourhood": "Velachery",
+    "latitude": 12.9912,
+    "longitude": 80.2195,
+    "capacity": 650,
+    "current_occupancy": 180,
+    "is_accessible": true,
+    "amenities": [
+      "medical_aid",
+      "drinking_water",
+      "hot_meals",
+      "power_backup",
+      "baby_care",
+      "generator"
+    ],
+    "status": "open",
+    "contact_person": "Dr. R. Prabhakaran (Nodal Officer)",
+    "contact_phone": "+91 94440 12345"
+  },
+  {
+    "shelter_id": "SH-CHE-02",
+    "name": "Velachery Community Welfare Hall",
+    "city": "Chennai",
+    "neighbourhood": "Velachery",
+    "latitude": 12.9815,
+    "longitude": 80.224,
+    "capacity": 350,
+    "current_occupancy": 210,
+    "is_accessible": true,
+    "amenities": [
+      "drinking_water",
+      "hot_meals",
+      "power_backup"
+    ],
+    "status": "open",
+    "contact_person": "Mrs. K. Banumathi",
+    "contact_phone": "+91 94441 23456"
+  },
+  {
+    "shelter_id": "SH-CHE-03",
+    "name": "Saidapet Model Higher Secondary School",
+    "city": "Chennai",
+    "neighbourhood": "Saidapet",
+    "latitude": 13.0245,
+    "longitude": 80.226,
+    "capacity": 500,
+    "current_occupancy": 320,
+    "is_accessible": true,
+    "amenities": [
+      "medical_aid",
+      "drinking_water",
+      "hot_meals",
+      "emergency_beds"
+    ],
+    "status": "open",
+    "contact_person": "Mr. S. Elangovan",
+    "contact_phone": "+91 94442 34567"
+  },
+  {
+    "shelter_id": "SH-CHE-04",
+    "name": "Madipakkam Govt Higher Secondary School Relief Camp",
+    "city": "Chennai",
+    "neighbourhood": "Madipakkam",
+    "latitude": 12.969,
+    "longitude": 80.1945,
+    "capacity": 400,
+    "current_occupancy": 140,
+    "is_accessible": false,
+    "amenities": [
+      "drinking_water",
+      "hot_meals",
+      "first_aid"
+    ],
+    "status": "open",
+    "contact_person": "Mr. V. Sundaram",
+    "contact_phone": "+91 94443 45678"
+  },
+  {
+    "shelter_id": "SH-CHE-05",
+    "name": "St. Thomas Mount Cantonment Relief Center",
+    "city": "Chennai",
+    "neighbourhood": "Saidapet",
+    "latitude": 13.0035,
+    "longitude": 80.197,
+    "capacity": 700,
+    "current_occupancy": 290,
+    "is_accessible": true,
+    "amenities": [
+      "medical_aid",
+      "drinking_water",
+      "hot_meals",
+      "power_backup",
+      "ambulances"
+    ],
+    "status": "open",
+    "contact_person": "Maj. D. Chandran (Retd)",
+    "contact_phone": "+91 94444 56789"
+  },
+  {
+    "shelter_id": "SH-CHE-06",
+    "name": "Tambaram Municipality Community Hall",
+    "city": "Chennai",
+    "neighbourhood": "Tambaram",
+    "latitude": 12.929,
+    "longitude": 80.132,
+    "capacity": 450,
+    "current_occupancy": 95,
+    "is_accessible": true,
+    "amenities": [
+      "drinking_water",
+      "hot_meals",
+      "power_backup"
+    ],
+    "status": "open",
+    "contact_person": "Mr. N. Jayakumar",
+    "contact_phone": "+91 94445 67890"
+  },
+  {
+    "shelter_id": "SH-CHE-07",
+    "name": "Mudichur Primary Health & Disaster Relief Center",
+    "city": "Chennai",
+    "neighbourhood": "Mudichur",
+    "latitude": 12.9265,
+    "longitude": 80.088,
+    "capacity": 300,
+    "current_occupancy": 285,
+    "is_accessible": true,
+    "amenities": [
+      "medical_aid",
+      "drinking_water",
+      "hot_meals"
+    ],
+    "status": "approaching_capacity",
+    "contact_person": "Dr. S. Kavitha",
+    "contact_phone": "+91 94446 78901"
+  },
+  {
+    "shelter_id": "SH-CHE-08",
+    "name": "Pallikaranai Panchayat Union High School",
+    "city": "Chennai",
+    "neighbourhood": "Pallikaranai",
+    "latitude": 12.9395,
+    "longitude": 80.2085,
+    "capacity": 450,
+    "current_occupancy": 160,
+    "is_accessible": true,
+    "amenities": [
+      "drinking_water",
+      "hot_meals",
+      "power_backup",
+      "first_aid"
+    ],
+    "status": "open",
+    "contact_person": "Mr. G. Ravichandran",
+    "contact_phone": "+91 94447 89012"
+  }
+]

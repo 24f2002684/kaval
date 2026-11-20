@@ -1,0 +1,88 @@
+{
+  "event_id": "CHENNAI_2015_DELUGE",
+  "title": "Chennai Deluge Reconstructed Demonstration (Dec 2015)",
+  "city": "Chennai",
+  "narrative": "A low-pressure depression over the Bay of Bengal dropped unprecedented precipitation exceeding 490 mm over 24 hours, causing Adyar and Chembarambakkam overflows.",
+  "timesteps": [
+    {
+      "step_index": 1,
+      "timestamp": "2015-11-30 08:00",
+      "label": "Depression Onset",
+      "rainfall_24h_mm": 85.0,
+      "chembarambakkam_discharge_cusecs": 1200,
+      "flooded_zones_count": 8,
+      "critical_households": 12,
+      "summary": "Initial rainfall intensification. Waterlogged roads in low-lying pockets of Velachery and Mudichur.",
+      "risk_distribution": {
+        "low": 65,
+        "moderate": 25,
+        "high": 8,
+        "critical": 2
+      }
+    },
+    {
+      "step_index": 2,
+      "timestamp": "2015-11-30 20:00",
+      "label": "Continuous Heavy Downpour",
+      "rainfall_24h_mm": 195.0,
+      "chembarambakkam_discharge_cusecs": 5500,
+      "flooded_zones_count": 22,
+      "critical_households": 34,
+      "summary": "Soil saturation reached 90%. Pallikaranai marshland expanded beyond normal bunds.",
+      "risk_distribution": {
+        "low": 35,
+        "moderate": 38,
+        "high": 20,
+        "critical": 7
+      }
+    },
+    {
+      "step_index": 3,
+      "timestamp": "2015-12-01 10:00",
+      "label": "Reservoir Discharges & Canal Breach",
+      "rainfall_24h_mm": 310.0,
+      "chembarambakkam_discharge_cusecs": 18000,
+      "flooded_zones_count": 48,
+      "critical_households": 72,
+      "summary": "Adyar river breached embankments near Saidapet bridge. Ground floor inundation in Velachery and Ram Nagar.",
+      "risk_distribution": {
+        "low": 15,
+        "moderate": 30,
+        "high": 35,
+        "critical": 20
+      }
+    },
+    {
+      "step_index": 4,
+      "timestamp": "2015-12-01 22:00",
+      "label": "Peak Catastrophic Deluge",
+      "rainfall_24h_mm": 435.0,
+      "chembarambakkam_discharge_cusecs": 29000,
+      "flooded_zones_count": 78,
+      "critical_households": 105,
+      "summary": "Peak deluge. Complete road cutoffs in Mudichur, Velachery, and Saidapet. Mass emergency rescue initiated.",
+      "risk_distribution": {
+        "low": 5,
+        "moderate": 18,
+        "high": 42,
+        "critical": 35
+      }
+    },
+    {
+      "step_index": 5,
+      "timestamp": "2015-12-02 12:00",
+      "label": "Peak Rescue & Subsiding Phase",
+      "rainfall_24h_mm": 460.0,
+      "chembarambakkam_discharge_cusecs": 21000,
+      "flooded_zones_count": 64,
+      "critical_households": 88,
+      "summary": "Rainfall eased slightly. Massive relief deployment, boat evacuations, and shelter distribution across South Chennai.",
+      "risk_distribution": {
+        "low": 12,
+        "moderate": 28,
+        "high": 36,
+        "critical": 24
+      }
+    }
+  ]
+}

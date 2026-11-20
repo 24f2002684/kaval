@@ -1,0 +1,314 @@
+[
+  {
+    "road_id": "RD-001",
+    "name": "Velachery Main Road (North Section)",
+    "city": "Chennai",
+    "start_node": "N_VEL_JUNCTION",
+    "end_node": "SH_VELACHERY_01",
+    "length_meters": 1100,
+    "elevation_m": 4.5,
+    "flood_risk_score": 0.35,
+    "water_depth_cm": 15,
+    "status": "waterlogged_slow",
+    "coordinates": [
+      [
+        12.978,
+        80.218
+      ],
+      [
+        12.985,
+        80.219
+      ],
+      [
+        12.9912,
+        80.2195
+      ]
+    ]
+  },
+  {
+    "road_id": "RD-002",
+    "name": "Ram Nagar 1st Main Road",
+    "city": "Chennai",
+    "start_node": "N_RAM_NAGAR",
+    "end_node": "N_VEL_JUNCTION",
+    "length_meters": 750,
+    "elevation_m": 2.1,
+    "flood_risk_score": 0.88,
+    "water_depth_cm": 65,
+    "status": "flooded_closed",
+    "coordinates": [
+      [
+        12.972,
+        80.213
+      ],
+      [
+        12.975,
+        80.2155
+      ],
+      [
+        12.978,
+        80.218
+      ]
+    ]
+  },
+  {
+    "road_id": "RD-003",
+    "name": "100 Feet Bypass Road (Velachery)",
+    "city": "Chennai",
+    "start_node": "N_VEL_JUNCTION",
+    "end_node": "SH_VELACHERY_02",
+    "length_meters": 950,
+    "elevation_m": 5.2,
+    "flood_risk_score": 0.18,
+    "water_depth_cm": 5,
+    "status": "passable",
+    "coordinates": [
+      [
+        12.978,
+        80.218
+      ],
+      [
+        12.98,
+        80.221
+      ],
+      [
+        12.9815,
+        80.224
+      ]
+    ]
+  },
+  {
+    "road_id": "RD-004",
+    "name": "Madipakkam - Velachery Link Road",
+    "city": "Chennai",
+    "start_node": "N_MADIPAKKAM_CTR",
+    "end_node": "N_VEL_JUNCTION",
+    "length_meters": 1800,
+    "elevation_m": 3.8,
+    "flood_risk_score": 0.45,
+    "water_depth_cm": 25,
+    "status": "waterlogged_slow",
+    "coordinates": [
+      [
+        12.964,
+        80.198
+      ],
+      [
+        12.971,
+        80.208
+      ],
+      [
+        12.978,
+        80.218
+      ]
+    ]
+  },
+  {
+    "road_id": "RD-005",
+    "name": "Kubera Nagar Main Road",
+    "city": "Chennai",
+    "start_node": "N_KUBERA_NAGAR",
+    "end_node": "SH_MADIPAKKAM_04",
+    "length_meters": 820,
+    "elevation_m": 4.8,
+    "flood_risk_score": 0.2,
+    "water_depth_cm": 8,
+    "status": "passable",
+    "coordinates": [
+      [
+        12.961,
+        80.191
+      ],
+      [
+        12.965,
+        80.193
+      ],
+      [
+        12.969,
+        80.1945
+      ]
+    ]
+  },
+  {
+    "road_id": "RD-006",
+    "name": "Inner Ring Road (Saidapet Section)",
+    "city": "Chennai",
+    "start_node": "N_SAIDAPET_METRO",
+    "end_node": "SH_SAIDAPET_03",
+    "length_meters": 1200,
+    "elevation_m": 6.2,
+    "flood_risk_score": 0.15,
+    "water_depth_cm": 0,
+    "status": "passable",
+    "coordinates": [
+      [
+        13.015,
+        80.22
+      ],
+      [
+        13.02,
+        80.223
+      ],
+      [
+        13.0245,
+        80.226
+      ]
+    ]
+  },
+  {
+    "road_id": "RD-007",
+    "name": "Maraimalai Adigal Bridge / Anna Salai Causeway",
+    "city": "Chennai",
+    "start_node": "N_SAIDAPET_CAUSEWAY",
+    "end_node": "N_SAIDAPET_METRO",
+    "length_meters": 650,
+    "elevation_m": 2.9,
+    "flood_risk_score": 0.92,
+    "water_depth_cm": 78,
+    "status": "flooded_closed",
+    "coordinates": [
+      [
+        13.012,
+        80.218
+      ],
+      [
+        13.0135,
+        80.219
+      ],
+      [
+        13.015,
+        80.22
+      ]
+    ]
+  },
+  {
+    "road_id": "RD-008",
+    "name": "GST Road Flyover Corridor",
+    "city": "Chennai",
+    "start_node": "N_GUINDY_INTERSECTION",
+    "end_node": "SH_ST_THOMAS_05",
+    "length_meters": 1400,
+    "elevation_m": 8.5,
+    "flood_risk_score": 0.08,
+    "water_depth_cm": 0,
+    "status": "passable",
+    "coordinates": [
+      [
+        13.008,
+        80.211
+      ],
+      [
+        13.0055,
+        80.204
+      ],
+      [
+        13.0035,
+        80.197
+      ]
+    ]
+  },
+  {
+    "road_id": "RD-009",
+    "name": "Mudichur Varadarajapuram Road",
+    "city": "Chennai",
+    "start_node": "N_VARADARAJAPURAM",
+    "end_node": "SH_MUDICHUR_07",
+    "length_meters": 1300,
+    "elevation_m": 2.2,
+    "flood_risk_score": 0.85,
+    "water_depth_cm": 70,
+    "status": "flooded_closed",
+    "coordinates": [
+      [
+        12.918,
+        80.081
+      ],
+      [
+        12.922,
+        80.0845
+      ],
+      [
+        12.9265,
+        80.088
+      ]
+    ]
+  },
+  {
+    "road_id": "RD-010",
+    "name": "Outer Ring Service High Ridge Road",
+    "city": "Chennai",
+    "start_node": "N_VARADARAJAPURAM",
+    "end_node": "SH_MUDICHUR_07",
+    "length_meters": 1900,
+    "elevation_m": 7.1,
+    "flood_risk_score": 0.12,
+    "water_depth_cm": 2,
+    "status": "passable",
+    "coordinates": [
+      [
+        12.918,
+        80.081
+      ],
+      [
+        12.921,
+        80.091
+      ],
+      [
+        12.9265,
+        80.088
+      ]
+    ]
+  },
+  {
+    "road_id": "RD-011",
+    "name": "Pallikaranai Marsh Peripheral Road",
+    "city": "Chennai",
+    "start_node": "N_PALLIKARANAI_SOUTH",
+    "end_node": "SH_PALLIKARANAI_08",
+    "length_meters": 1150,
+    "elevation_m": 3.1,
+    "flood_risk_score": 0.72,
+    "water_depth_cm": 45,
+    "status": "waterlogged_slow",
+    "coordinates": [
+      [
+        12.93,
+        80.207
+      ],
+      [
+        12.935,
+        80.208
+      ],
+      [
+        12.9395,
+        80.2085
+      ]
+    ]
+  },
+  {
+    "road_id": "RD-012",
+    "name": "Velachery - Tambaram Main Arterial",
+    "city": "Chennai",
+    "start_node": "N_VEL_JUNCTION",
+    "end_node": "SH_TAMBARAM_06",
+    "length_meters": 8200,
+    "elevation_m": 7.4,
+    "flood_risk_score": 0.22,
+    "water_depth_cm": 8,
+    "status": "passable",
+    "coordinates": [
+      [
+        12.978,
+        80.218
+      ],
+      [
+        12.95,
+        80.17
+      ],
+      [
+        12.929,
+        80.132
+      ]
+    ]
+  }
+]

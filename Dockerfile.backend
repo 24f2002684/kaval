@@ -1,0 +1,27 @@
+# Backend Dockerfile
+FROM python:3.11-slim
+
+WORKDIR /app
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONPATH=/app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install uv for fast, reliable package management
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /bin/uv
+
+COPY pyproject.toml* ./
+COPY backend /app/backend
+COPY ml /app/ml
+COPY datasets /app/datasets
+
+RUN uv pip install --system fastapi "uvicorn[standard]" pydantic pydantic-settings sqlalchemy psycopg2-binary scikit-learn numpy pandas joblib networkx httpx pyjwt bcrypt python-multipart pytest pytest-asyncio shapely
+
+EXPOSE 8000
+
+CMD ["sh", "-c", "python backend/app/seed_data.py && uvicorn backend.main:app --host 0.0.0.0 --port 8000"]
